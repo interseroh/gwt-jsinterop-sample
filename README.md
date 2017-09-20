@@ -1,4 +1,4 @@
-# GWT 2.8.1 JsInterop sample
+# GWT 2.8.1 JsInterop Sample
 
 A small example on how to use the JsInterop functionality in GWT 2.8.
 
