@@ -16,3 +16,8 @@ To get a live recompile on any source changes use super dev mode.
 ```
 mvn gwt:run-codeserver -P development
 ```
+
+To try the webapp go here.
+```
+http://localhost:9015/jsinterop/index.html
+```
