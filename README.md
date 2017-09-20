@@ -1,14 +1,18 @@
-# GWT 2.8.0 JsInterop sample
+# GWT 2.8.1 JsInterop sample
 
 A small example on how to use the JsInterop functionality in GWT 2.8.
 
-To compile the project use gradle, also ready to use with IntelliJ.
+To compile the project use Maven, also ready to use with IntelliJ.
 ```
-./gradlew build
+mvn clean package
+```
+
+To run Spring Boot to serve the JavaScript files start Spring Boot main class.
+```
+de.jakobjarosch.test.server.DemoGwtSpringbootApplication
 ```
 
 To get a live recompile on any source changes use super dev mode.
-
 ```
-./gradlew gwtDev
+mvn gwt:run-codeserver -P development
 ```

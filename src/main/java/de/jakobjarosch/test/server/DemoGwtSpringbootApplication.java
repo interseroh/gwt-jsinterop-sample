@@ -16,13 +16,16 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package de.jakobjarosch.test.client;
+package de.jakobjarosch.test.server;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import jsinterop.annotations.JsPackage;
-import jsinterop.annotations.JsType;
+@SpringBootApplication
+public class DemoGwtSpringbootApplication {
 
-@JsType(namespace = JsPackage.GLOBAL, name = "window", isNative = true)
-public class Window {
-    public static native void alert(String message);
+	public static void main(String[] args) {
+		SpringApplication.run(DemoGwtSpringbootApplication.class, args);
+	}
+
 }
