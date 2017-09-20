@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<script type="text/javascript" src="gwt_test/gwt_test.nocache.js"></script>
+        <script type="text/javascript" src="gwt_test/gwt_test.nocache.js"></script>
+        <script language="javascript" type="text/javascript">
+            Foo = function() {
+                this.x = 40;
+                this.y = 2;
+            };
+            Foo.prototype.sum = function() {
+                return this.x + this.y;
+            };
+        </script>
 	</head>
 	<body>
 		<button onclick="MyApp.click();">Click me!</button>
+        <div id="buttonFoo"/>
 	</body>
 </html>
