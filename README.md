@@ -1,6 +1,7 @@
 # GWT 2.8.1 JsInterop Sample
 
-A small example on how to use the JsInterop functionality in GWT 2.8.
+A small example on how to use the JsInterop functionality in GWT 2.8. 
+You can find the documentation of JsInterop here: https://goo.gl/C3iZ7X.
 
 To compile the project use Maven, also ready to use with IntelliJ.
 ```
