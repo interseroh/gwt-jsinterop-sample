@@ -2,13 +2,12 @@
 
 A small example on how to use the JsInterop functionality in GWT 2.8.
 
-To compile the project use gradle, also ready to use with IntelliJ.
-```
-./gradlew build
-```
+This example is modified from: https://github.com/foxylion/gwt-jsinterop-sample
 
-To get a live recompile on any source changes use super dev mode.
+This project use GWT Boot to simplify the Maven project: https://github.com/gwtboot/gwt-boot-modules
 
-```
-./gradlew gwtDev
+To run just do:
+
+```java
+mvn gwt:generate-module gwt:devmode
 ```
