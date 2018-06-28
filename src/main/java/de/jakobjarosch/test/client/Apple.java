@@ -21,18 +21,12 @@ package de.jakobjarosch.test.client;
 import jsinterop.annotations.JsPackage;
 import jsinterop.annotations.JsType;
 
-@JsType(namespace = JsPackage.GLOBAL, name = "MyApp")
-public class MyApp {
+@JsType(namespace = JsPackage.GLOBAL, name = "Apple", isNative = true)
+public class Apple {
 
-    public void click() {
-        Window.alert("Hello, I'm GWT JsInterop!\nThanks for clicking.");
-    }
+    public int x;
 
-    public String clickApple() {
-        Apple apple = new Apple();
-        final int sum = apple.sum();
+    public int y;
 
-        return "Sum: " + sum;
-    }
-
+    public native int sum();
 }
